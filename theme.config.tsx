@@ -3,10 +3,10 @@ import React from 'react';
 
 const config: DocsThemeConfig = {
     useNextSeoProps: () => ({ titleTemplate: '%s – MagmaMC' }),
-    head: <link rel='icon' type='image/x-icon' href='/magma.ico' />,
+    head: <link rel='icon' type='image/x-icon' href='/assets/magma.ico' />,
     logo: (
         <>
-            <img src='/magma.ico' width={32} height={32} />
+            <img src='/assets/magma.ico' width={32} height={32} />
             <h1 style={{ marginLeft: '0.5rem', fontWeight: 600 }}>MagmaMC</h1>
         </>
     ),
@@ -14,6 +14,15 @@ const config: DocsThemeConfig = {
     docsRepositoryBase: 'https://github.com/magmaorg/wiki',
     themeSwitch: {
         useOptions: () => ({ dark: 'Черный', light: 'Белый', system: 'Системный' }),
+    },
+    search: {
+        emptyResult: (
+            <span className='nx-block nx-select-none nx-p-8 nx-text-center nx-text-sm nx-text-gray-400'>
+                Результатов не найдено.
+            </span>
+        ),
+        error: 'Произошла ошибка.',
+        placeholder: () => 'Поиск документации…',
     },
     gitTimestamp: ({ timestamp }) => (
         <>
