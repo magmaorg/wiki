@@ -15,6 +15,19 @@ const config: DocsThemeConfig = {
     themeSwitch: {
         useOptions: () => ({ dark: 'Черный', light: 'Белый', system: 'Системный' }),
     },
+    gitTimestamp: ({ timestamp }) => (
+        <>
+            Last updated on{' '}
+            <time dateTime={timestamp.toISOString()}>
+                {timestamp.toLocaleDateString('ru-RU', {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric',
+                })}
+            </time>
+        </>
+    ),
+    navigation: { prev: true, next: true },
     feedback: { content: null },
     footer: { component: null },
     editLink: { text: 'Изменить страницу' },
