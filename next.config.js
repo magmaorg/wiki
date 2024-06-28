@@ -3,4 +3,4 @@ module.exports = require('nextra')({
     themeConfig: './theme.config.tsx',
     staticImage: true,
     output: 'export',
-})({ i18n: { locales: ['ru'], defaultLocale: 'ru' } });
+})();
