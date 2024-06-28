@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.nx-max-w-\[90rem\] {
+    max-width: 95rem;
+}
+
+.md\:nx-w-64,
+.nx-w-64 {
+    width: 18rem;
+}

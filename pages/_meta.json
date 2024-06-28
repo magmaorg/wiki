@@ -1,0 +1,48 @@
+{
+    "-- Information": {
+        "type": "separator",
+        "title": "Информация"
+    },
+    "index": {
+        "title": "💻 Информация по серверу",
+        "theme": {
+            "breadcrumb": false
+        }
+    },
+    "needed-mods": {
+        "title": "💼 Необходимые моды",
+        "theme": {
+            "breadcrumb": false
+        }
+    },
+    "introduction-to-rp": {
+        "title": "🧑‍⚕️ Введение в РП",
+        "theme": {
+            "breadcrumb": false
+        }
+    },
+    "rules": {
+        "title": "📖 Правила",
+        "theme": {
+            "breadcrumb": false
+        }
+    },
+    "laws": {
+        "title": "📕 Законы",
+        "theme": {
+            "breadcrumb": false
+        }
+    },
+    "magmaline": {
+        "title": "🎨 MagmaLine",
+        "theme": {
+            "breadcrumb": false
+        }
+    },
+    "donations": {
+        "title": "💰 Поддержка проекта",
+        "theme": {
+            "breadcrumb": false
+        }
+    }
+}
