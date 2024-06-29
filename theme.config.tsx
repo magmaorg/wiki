@@ -26,7 +26,7 @@ const config: DocsThemeConfig = {
     },
     gitTimestamp: ({ timestamp }) => (
         <>
-            Last updated on{' '}
+            Страница была изменена{' '}
             <time dateTime={timestamp.toISOString()}>
                 {timestamp.toLocaleDateString('ru-RU', {
                     day: 'numeric',
