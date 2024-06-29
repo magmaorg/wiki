@@ -2,8 +2,13 @@ import { DocsThemeConfig } from 'nextra-theme-docs';
 import React from 'react';
 
 const config: DocsThemeConfig = {
-    useNextSeoProps: () => ({ titleTemplate: '%s – MagmaMC' }),
-    head: <link rel='icon' type='image/x-icon' href='/assets/magma.ico' />,
+    useNextSeoProps: () => ({ title: 'MagmaMC', description: '%s', themeColor: '#ff9500' }),
+    head: (
+        <>
+            <link rel='icon' type='image/x-icon' href='/assets/magma.ico' />
+            <meta content='/assets/magma.ico' property='og:image' />
+        </>
+    ),
     logo: (
         <>
             <img src='/assets/magma.ico' width={32} height={32} />
