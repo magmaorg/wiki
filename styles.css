@@ -6,7 +6,12 @@ html {
     max-width: 95rem;
 }
 
-.md\:nx-w-64,
+@media (min-width: 768px) {
+    .md\:nx-w-64 {
+        width: 18rem;
+    }
+}
+
 .nx-w-64 {
     width: 18rem;
 }
