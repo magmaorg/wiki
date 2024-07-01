@@ -4,4 +4,5 @@ module.exports = require('nextra')({
 })({
     output: 'export',
     images: { unoptimized: true },
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/wiki' : undefined,
 });
