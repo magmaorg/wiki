@@ -31,7 +31,6 @@ jobs:
         with:
           path: |
             ~/.bun/install/cache
-            .next/cache
           key: ${{ runner.os }}-${{ matrix.bun }}-bun-${{ hashFiles('**/bun.lockb') }}
           restore-keys: |
             ${{ runner.os }}-${{ matrix.bun }}-bun-
