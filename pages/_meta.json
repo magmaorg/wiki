@@ -9,8 +9,8 @@
             "breadcrumb": false
         }
     },
-    "needed-mods": {
-        "title": "💼 Необходимые моды",
+    "modpack": {
+        "title": "💼 Сборка модов",
         "theme": {
             "breadcrumb": false
         }
